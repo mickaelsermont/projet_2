@@ -173,9 +173,7 @@ aside section div.container {
 	}
 	aside,
 	.main_container,
-	#header_img,
-	.date_place,
-	.infos {
+	#header_img {
 		width: 100%;
 	}
 	#contact {
@@ -211,3 +209,4 @@ aside section div.container {
 		width: 100%;
 	}
 }
+
