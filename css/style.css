@@ -164,7 +164,7 @@ aside section div.container {
 
 /* ----------------  MOBILE SCREEN ------------------- */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
 	#main_body,
 	#main_header {
 		display: flex;
@@ -201,7 +201,7 @@ aside section div.container {
 		padding: 0 20px;
 	}
 }
-@media only screen and (max-width: 570px) {
+@media only screen and (min-width: 570px) {
 	.article {
 		display: flex;
 		flex-direction: column;
