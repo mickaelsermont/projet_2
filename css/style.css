@@ -216,9 +216,9 @@ aside section div.container {
 	#main_section h2 {
 		font-size: 125%;
 	}
-/* 	#surname_title {
-		color: #000;
-	} */
+ 	#surname_title {
+		color: #fff;
+	}
 	.main_section {
 		padding: 0 25px;
 	}
