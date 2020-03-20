@@ -122,8 +122,8 @@ aside section div.container {
 	line-height: 1em;
 	border-radius: 50%;
 	border: 2px solid #000;
-	padding: 16px;
-	margin: 0 10px;
+	padding: 10px;
+	margin: 0 17px;
 }
 
 /* ----------------  ARTICLE ------------------- */
@@ -148,9 +148,11 @@ aside section div.container {
 	flex-direction: column;
 	width: 65%;
 }
+.infos strong {
+	text-transform: uppercase;
+}
 .infos p {
 	margin-bottom: 8px;
-	
 }
 .date_place i {
 	margin-right: 20px;
@@ -164,7 +166,7 @@ aside section div.container {
 
 /* ----------------  MOBILE SCREEN ------------------- */
 
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 	#main_body,
 	#main_header {
 		display: flex;
@@ -173,15 +175,40 @@ aside section div.container {
 	}
 	aside,
 	.main_container,
-	#header_img {
+	#header_img	{
 		width: 100%;
+	}
+	.date_place {
+		display: flex;
+		flex-direction: row;
+		width: 30%;
+	}
+	.infos {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
 	}
 	#contact {
 		text-align: center;
 	}
+	#contact ul li span {
+		font-weight: bold;
+	}
 	#header_title {
 		text-align: center;
 		background-color: #ffc300;
+	}
+	#header_title h1,
+	#header_title h2 {
+		margin: 0;
+		padding: 0 18px;
+	}
+	#header_title h1 {
+		font-size: 150%;
+	}
+	#header_title h2,
+	#main_section h2 {
+		font-size: 125%;
 	}
 	#surname_title {
 		color: #000;
@@ -199,7 +226,7 @@ aside section div.container {
 		padding: 0 20px;
 	}
 }
-@media only screen and (min-width: 300px) and (max-width: 620px) {
+@media only screen and (max-width: 570px) {
 	.article {
 		display: flex;
 		flex-direction: column;
@@ -209,4 +236,3 @@ aside section div.container {
 		width: 100%;
 	}
 }
-
