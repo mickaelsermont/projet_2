@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 4px;
 	background: #0098C1;
 }
-#surname_title {
+#firstname_title {
 	color: #0098C1;
 }
 /* ----------------  ASIDE ------------------- */
@@ -216,7 +216,7 @@ aside section div.container {
 	#main_section h2 {
 		font-size: 125%;
 	}
- 	#surname_title {
+ 	#firstname_title {
 		color: #fff;
 	}
 	.main_section {
