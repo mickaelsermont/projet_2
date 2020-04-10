@@ -166,6 +166,24 @@ aside section div.container {
 	margin-top: 0;
 }
 
+/* ----- Recommandations ----- */
+#recommandation_container {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3em;
+}
+.recommandation {
+	width: 50%;
+}
+.recommandation .name {
+	text-transform: uppercase;
+}
+.recommandation .info {
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+
 /* ----------------  MOBILE SCREEN ------------------- */
 
 @media only screen and (max-width: 900px) {
@@ -233,12 +251,14 @@ aside section div.container {
 	}
 }
 @media only screen and (max-width: 570px) {
-	.article {
+	.article,
+	#recommandation_container {
 		display: flex;
 		flex-direction: column;
 	}
 	.date_place,
-	.infos {
+	.infos,
+	.recommandation {
 		width: 100%;
 	}
 }
