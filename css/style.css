@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 30%;
 	display: flex;
 	justify-content: center;
-	background-color: #0098C1;
+	background-color: #0091EA;
 }
 #header_img img {
 	margin: 25px;
@@ -57,10 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 40px;
 	width: 10%;
 	height: 4px;
-	background: #0098C1;
+	background: #0091EA;
 }
 #firstname_title {
-	color: #0098C1;
+	color: #0091EA;
 }
 /* ----------------  ASIDE ------------------- */
 
@@ -69,12 +69,13 @@ aside {
 	flex-direction: column;
 	width: 30%;
 	color: #fff;
-	background-color: #0098C1;
+	background-color: #0091EA;
 }
-aside section h1{
-	color: #0098C1;
+aside section h3 {
+	font-size: 1.17em;
+	color: #0091EA;
 	background-color: #fff;
-	border-right: 1.5px solid #0098C1;
+	border-right: 1.5px solid #0091EA;
 	text-align: center;
 	padding: 10px 0;
 	text-transform: uppercase;
@@ -106,12 +107,13 @@ aside section div.container {
 .main_section {
 	padding: 0 40px;
 }
-.main_section h2 {
-	border-bottom: 3px solid #0098C1;
+.main_section h3 {
+	font-size: 1.5em;
+	border-bottom: 3px solid #0091EA;
 	padding-bottom: 10px;
 }
-.main_section h2 i {
-	color: #0098C1;
+.main_section h3 i {
+	color: #0091EA;
 	margin-right: 30px;
 }
 #hobbies {
@@ -159,7 +161,7 @@ aside section div.container {
 .date_place i {
 	margin-right: 20px;
 	padding-top: 4px;
-	color: #0098C1;
+	color: #0091EA;
 }
 .date_place p,
 .infos p {
@@ -219,7 +221,7 @@ aside section div.container {
 	}
 	#header_title {
 		text-align: center;
-		background-color: #0098C1;
+		background-color: #0091EA;
 	}
 	#header_title h1,
 	#header_title h2 {
